@@ -64,3 +64,29 @@ gulp protractor to launch your e2e tests with Protractor
 gulp protractor:dist to launch your e2e tests with Protractor on the dist files 
 
 
+5.创建脚手架时候的基本选项
+
+Which version of Angular do you want? 1.5.x (stable) 
+
+What Angular modules would you like to have? (ngRoute and ngResource will be addressed after) (Press <space> to select)angular-animate.js (enable animation feature
+s), angular-cookies.js (handle cookie management), angular-touch.js (for mobile development), angular-sanitize.js (to securely parse and manipulate HTML), angular-me
+ssages.js (enhanced support for displaying messages within templates), angular-aria.js (support for common ARIA attributes) 
+
+Do you need jQuery or perhaps Zepto? jQuery 2.x (new version, lighter, IE9+)
+
+Would you like to use a REST resource library? ngResource, the official support for RESTful services
+
+Would you like to use a router? None 
+
+
+Which UI framework do you want? None 
+
+
+Which CSS preprocessor do you want? None, only the good old CSS 
+
+
+Which JS preprocessor do you want? None, I like to code in standard JavaScript. 
+
+
+Which HTML template engine would you want? None, I like to code in standard HTML. 
+
