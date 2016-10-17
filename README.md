@@ -1,9 +1,12 @@
-**Squad App FontEnd Code**
+**Squad App Frontend**
 
-给工程用用于开发Mingyian Squad Webapp
+本工程用于开发Mingyian Squad web app。
 
 使用yeoman来做脚手架，生成基本项目结构。
-选用了https://github.com/Swiip/generator-gulp-angular/blob/master/docs/user-guide.md 为生成器，安装和配置命令如下：
+
+选用了https://github.com/Swiip/generator-gulp-angular/blob/master/docs/user-guide.md 为生成器. 
+
+安装和配置命令如下：
 
 1.安装nodejs
 
