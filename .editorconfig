@@ -1,0 +1,15 @@
+# EditorConfig可以帮助开发者在不同的IDE和编辑器之间定义和维护一致的代码风格。http://EditorConfig.org
+# 在保存一份代码文件时，EditorConfig插件会根据以下规则对其进行处理。
+
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.md]
+trim_trailing_whitespace = false
