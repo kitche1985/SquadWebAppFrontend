@@ -54,6 +54,16 @@ gulp.task('serve:dist', ['build'], function () {
   browserSyncInit(conf.paths.dist);
 });
 
+gulp.task('serve:docs', function() {
+  var connect = require('gulp-connect');
+  connect.server({
+    root: 'docs',
+    livereload: false,
+    fallback: 'docs/index.html',
+    port: 8083
+  });
+});
+
 gulp.task('serve:e2e', ['inject'], function () {
   browserSyncInit([conf.paths.tmp + '/serve', conf.paths.src], []);
 });
