@@ -1,8 +1,8 @@
 <!doctype html>
-<html ng-app="squadGoalFontEnd">
+<html ng-app="squadGoalFrontEnd">
   <head>
     <meta charset="utf-8">
-    <title>squadGoalFontEnd</title>
+    <title>squadGoalFrontEnd</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -14,17 +14,18 @@
     <!-- endbuild -->
 
     <!-- build:css({.tmp/serve,src}) styles/squad.css -->
-    <link rel="stylesheet" href="app/squad/squad.css">
+    <link rel="stylesheet" href="app/index.css">
+
     <!-- css files will be automatically insert here -->
     <!-- endinject -->
     <!-- endbuild -->
   </head>
   <body>
-      <div ng-controller="SquadController as squad">
-          <div class="test">{{squad.test}}</div>
+      <div ng-controller="SquadController as vm">
+          <div class="test">{{vm.test}}</div>
       </div>
     <!-- build:js(src) scripts/vendor.js -->
-    
+
     <!-- bower:js -->
     <!-- run `gulp inject` to automatically populate bower script dependencies -->
     <!-- endbower -->
@@ -33,7 +34,7 @@
     <!-- build:js({.tmp/serve,.tmp/partials,src}) scripts/squad.js -->
     <script src="app/index.module.js"></script>
     <script src="app/squad/squad.controller.js"></script>
-    
+
     <!-- js files will be automatically insert here -->
     <!-- endinject -->
 

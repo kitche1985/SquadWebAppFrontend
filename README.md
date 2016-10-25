@@ -21,9 +21,14 @@ Yeoman Options
 
 Which version of Angular do you want? 1.5.x (stable) 
 
-What Angular modules would you like to have? (ngRoute and ngResource will be addressed after) (Press <space> to select)angular-animate.js (enable animation feature
-s), angular-cookies.js (handle cookie management), angular-touch.js (for mobile development), angular-sanitize.js (to securely parse and manipulate HTML), angular-me
-ssages.js (enhanced support for displaying messages within templates), angular-aria.js (support for common ARIA attributes) 
+What Angular modules would you like to have? (ngRoute and ngResource will be addressed after) (Press <space> to select)
+
+* angular-animate.js (enable animation features)
+* angular-cookies.js (handle cookie management)
+* angular-touch.js (for mobile development)
+* angular-sanitize.js (to securely parse and manipulate HTML)
+* angular-messages.js (enhanced support for displaying messages within templates)
+* angular-aria.js (support for common ARIA attributes) 
 
 Do you need jQuery or perhaps Zepto? jQuery 2.x (new version, lighter, IE9+)
 

@@ -3,7 +3,7 @@
 
   /**
    * @ngdoc directive
-   * @name squadGoalFontEnd.directive:acmeNavbar
+   * @name squadGoalFrontEnd.directive:acmeNavbar
    * @element div
    * @function
    *
@@ -14,7 +14,7 @@
      <acme-navbar creation-date="created_on"></acme-navbar>
    */
   angular
-    .module('squadGoalFontEnd')
+    .module('squadGoalFrontEnd')
     .directive('acmeNavbar', acmeNavbar);
 
   /** @ngInject */

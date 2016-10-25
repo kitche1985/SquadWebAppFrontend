@@ -12,7 +12,7 @@
     var vm;
     var el;
 
-    beforeEach(module('squadGoalFontEnd'));
+    beforeEach(module('squadGoalFrontEnd'));
     beforeEach(inject(function($compile, $rootScope, githubContributor, $q, _$log_) {
       $log = _$log_;
 
