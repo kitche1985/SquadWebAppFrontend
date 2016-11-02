@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('squadGoalFontEnd')
+    .module('squadGoalFrontEnd')
     .run(runBlock);
 
   /** @ngInject */

@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('squadGoalFontEnd')
+    .module('squadGoalFrontEnd')
     .factory('githubContributor', githubContributor);
 
   /** @ngInject */

@@ -1,8 +1,20 @@
 (function() {
   'use strict';
 
+  /**
+   * @ngdoc directive
+   * @name squadGoalFrontEnd.directive:acmeNavbar
+   * @element div
+   * @function
+   *
+   * @description
+   * Default navigation bar
+   *
+   * @example
+     <acme-navbar creation-date="created_on"></acme-navbar>
+   */
   angular
-    .module('squadGoalFontEnd')
+    .module('squadGoalFrontEnd')
     .directive('acmeNavbar', acmeNavbar);
 
   /** @ngInject */

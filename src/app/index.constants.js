@@ -3,7 +3,7 @@
   'use strict';
 
   angular
-    .module('squadGoalFontEnd')
+    .module('squadGoalFrontEnd')
     .constant('malarkey', malarkey)
     .constant('moment', moment);
 
